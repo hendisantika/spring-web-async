@@ -1,7 +1,8 @@
 package com.hendisantika.web.repository;
 
-import org.springframework.util.IdGenerator;
-import org.springframework.util.JdkIdGenerator;
+
+import com.hendisantika.web.repository.ids.IdGenerator;
+import com.hendisantika.web.repository.ids.JdkIdGenerator;
 
 import java.util.ArrayList;
 import java.util.List;
